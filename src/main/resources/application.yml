@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/demo
+    driverClassName: org.h2.Driver
+    username: root
+    password: pass
+  jpa:
+    show-sql: true
+    open-in-view: false
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+      use-new-id-generator-mappings: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
+
+iyzico-payment:
+  api-key: sandbox-9Nka4mr7A1DxsSkdRUtBQUyDkzbsdPar
+  client-secret: sandbox-V91I9PxV0KSG0vakYWChCEK1BcPqrhrF
+  url: https://sandbox-api.iyzipay.com

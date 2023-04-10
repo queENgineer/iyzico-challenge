@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "iyzico-payment.api-key",
+      "type": "java.lang.String",
+      "description": "Description for iyzico-payment.api-key."
+    },
+    {
+      "name": "iyzico-payment.client-secret",
+      "type": "java.lang.String",
+      "description": "Description for iyzico-payment.client-secret."
+    },
+    {
+      "name": "iyzico-payment.url",
+      "type": "java.lang.String",
+      "description": "Description for iyzico-payment.url."
+    },
+    {
+      "name": "iyzico-payment.api-key",
+      "type": "java.lang.String",
+      "description": "Description for iyzico-payment.api-key."
+    }
+  ] }
